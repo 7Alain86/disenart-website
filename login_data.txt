@@ -1,0 +1,14 @@
+cambiar los datos para cuando se vaya a probar la inserción de contenido
+
+Visitante
+    username = "visitor" 
+    pwd = ""
+
+Empleado
+    username = "empleado"
+    pwd = d1s3n4RTr10b4mb4!@
+
+Admin
+    username = "administrador"
+    pwd = 4dm1n1str4c10nD1s3n@rt
+

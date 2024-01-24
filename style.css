@@ -1,6 +1,12 @@
-html{
-    font-family: Arial, sans-serif;
-    height: 100%;
+:root {
+    --primary-color1: #1F71EA;
+    --compl-color1:#01C4EA;
+    --primary-color2:#F2C200;
+    --primary-color3:#DB0050;
+    --compl-color3:#B01088;
+    --background-white: #f5f5f5;
 }
 
-
+html {
+    font-family: Arial, sans-serif;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="#">
+                <img src="media/logo.jpg" class="logo">
+                <h1>Diseñart</h1>
+            </a>
+        </div>
+        <div class="login-signup-container">
+
+            <form action="#" method="post">
+                <label for="usuario">Usuario: </label>
+                <input type="text" id="usuario" name="usuario" required>
+
+                <label for="contrasena">Contraseña: </label>
+                <input type="password" id="contrasena" name="contrasena" required>
+
+                <input type="submit" value="Iniciar Sesión">
+            </form>
+
+            <p>Nuevo usuario? </p><a href="#">Ingresa aquí</a>
+
+        </div>
+        <div class="menu-wrapper">
+
+            <nav>
+                <ul>
+                    <li><a href="#">Categorías</a></li>
+                    <li><a href="#">Productos</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="seacrh-bar">
+
+            <form action="/search" method="get">
+                <input type="text" name="search" placeholder="Buscar..." required>
+                <input type="submit" value="Buscar">
+            </form>
+
+        </div>
+    </header>
+</body>

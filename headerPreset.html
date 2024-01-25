@@ -10,45 +10,48 @@
 
 <body>
     <header>
-        <div class="logo-container">
-            <a href="#">
-                    <img src="media/logo.jpg" class="logo">
-                    <img src="media/logo.jpg" class="logo">
-                    <!-- <h1>Diseñart</h1> -->
-            </a>
+        <div class="top-bar">
+            <div class="logo-container">
+                <a href="#">
+                    <img src="media/logo.jpg" class="logo-img">
+                    <h2 class="logo-h2">Diseñart</h2>
+                </a>
+            </div>
+
+            <div class="menu-wrapper">
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Tienda</a></li>
+                        <!-- 
+                            desplegar desde tienda
+                            <li><a href="#">Categorías</a></li>
+                            <li><a href="#">Productos</a></li> -->
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="left-icons">
+                <nav class="icons-container">
+                    <ul>
+                        <li><img src="/public/icons/person-icon.png"></li>
+                        <li><img src="/public/icons/cart-icon.png"></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <div class="login-signup-container">
-
-            <form action="#" method="post">
-                <label for="usuario">Usuario: </label>
-                <input type="text" id="usuario" name="usuario" required>
-
-                <label for="contrasena">Contraseña: </label>
-                <input type="password" id="contrasena" name="contrasena" required>
-
-                <input type="submit" value="Iniciar Sesión">
-            </form>
-
-            <p>Nuevo usuario? </p><a href="#">Ingresa aquí</a>
-
-        </div>
-        <div class="menu-wrapper">
-
-            <nav>
-                <ul>
-                    <li><a href="#">Categorías</a></li>
-                    <li><a href="#">Productos</a></li>
-                </ul>
-            </nav>
-
-        </div>
+    </header>
+    <div class="main-wrapper">
+        <br>
+        <br>
+        <br>
         <div class="seacrh-bar">
-
             <form action="/search" method="get">
                 <input type="text" name="search" placeholder="Buscar..." required>
                 <input type="submit" value="Buscar">
             </form>
-
         </div>
-    </header>
+    </div>
 </body>

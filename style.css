@@ -9,4 +9,31 @@
 
 html {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+
+.logo-container {
+    display: flex;
+    background-color: var(--primary-color1);
+    width: 50%;
+    margin: 1rem;
+}
+
+.logo-container .logo {
+    width: 100px;
+    align-items: center;
+    display: flex;
+    height: 100px;
+}
+
+/* .logo-container h1 {
+    align-items: center;
+    background-color: #1F71EA;
+    height: 2rem;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+ */
